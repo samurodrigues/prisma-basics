@@ -24,7 +24,7 @@ async function main() {
   })
 ~~~
 
-### findMany -> Read data
+### findMany - Read data
 ~~~typescript
   const allUsers = await prisma.user.findMany({
     include: {
@@ -46,7 +46,7 @@ main()
   })
 ~~~
 
-### update -> atualiza um dado
+### update - update a data
 ~~~typescript
 async function main() {
   const post = await prisma.post.update({
