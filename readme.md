@@ -1,4 +1,4 @@
-# PrismaClient commands
+# 🔺 PrismaClient commands
 
 ### Imports and sets
 ~~~typescript
@@ -24,7 +24,7 @@ async function main() {
   })
 ~~~
 
-### findMany - Read data
+### findMany -> Read data
 ~~~typescript
   const allUsers = await prisma.user.findMany({
     include: {
@@ -46,7 +46,7 @@ main()
   })
 ~~~
 
-### update - update a data
+### update -> update data
 ~~~typescript
 async function main() {
   const post = await prisma.post.update({
